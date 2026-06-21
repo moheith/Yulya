@@ -17,8 +17,21 @@ A 100% locally-hosted, multimodal AI desktop companion featuring a custom-traine
 *   **UI:** CustomTkinter
 
 ## Setup
-1. Ensure Ollama is installed and running the `yulya` model.
-2. Install Python dependencies: `pip install -r requirements.txt`
-3. Launch the dashboard: `python dev_dashboard.py`
 
-*Note: The `.gguf` weights and `adapter_model.safetensors` are too large for GitHub and must be downloaded separately.*
+### 1. Install the Engine (Ollama)
+You need Ollama to run Yulya's brain locally.
+* Download and install Ollama from [ollama.com](https://ollama.com/)
+
+### 2. Download Yulya
+Once Ollama is installed, open your terminal (Command Prompt or PowerShell) and run:
+```bash
+ollama run moheith/yulya
+```
+*(Note: Replace `moheith/yulya` with the exact namespace you uploaded your model to on Ollama's website if it differs).*
+
+### 3. Start the Dashboard
+Install the required Python libraries and launch the custom GUI:
+```bash
+pip install -r requirements.txt
+python dev_dashboard.py
+```
