@@ -27,7 +27,6 @@ Once Ollama is installed, open your terminal (Command Prompt or PowerShell) and 
 ```bash
 ollama run moheith/yulya
 ```
-*(Note: Replace `moheith/yulya` with the exact namespace you uploaded your model to on Ollama's website if it differs).*
 
 ### 3. Start the Dashboard
 Install the required Python libraries and launch the custom GUI:

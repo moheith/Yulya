@@ -13,3 +13,11 @@ env/
 
 # Ignore local database/temporary files
 data/last_view.png
+
+# Ignore history and unneeded fine-tuning configs
+gemini history.txt
+adapter_config.json
+chat_template.jinja
+tokenizer.json
+tokenizer_config.json
+phase2_text_ai/Yulya_lora_model/
