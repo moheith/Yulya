@@ -1,0 +1,17 @@
+{
+    "user_name": "Mayura",
+    "school": "Indian Institute of Technology",
+    "location": "India",
+    "interests": [
+        "AI",
+        "Coding",
+        "Gaming"
+    ],
+    "favorite_games": [
+        "Minecraft",
+        "Space Pioneers"
+    ],
+    "notes": "The user is currently building Yulya, a desktop companion.",
+    "mood": "Happy",
+    "assistant_name": "Yulya"
+}

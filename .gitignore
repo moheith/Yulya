@@ -1,0 +1,15 @@
+# Ignore large AI model files (GitHub limit is 100MB)
+*.gguf
+*.safetensors
+*.bin
+*.pth
+
+# Ignore Python cache and environment
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# Ignore local database/temporary files
+data/last_view.png
